@@ -13,35 +13,65 @@ All the computations starts from the state 0.
 ### Example
 tr
 0 a aR 0
+
 0 b bR 0
+
 0 a c R 1
+
 0 b c R 2
+
 1 a c L 3
+
 2 b c L 3
+
 3 c cL 3
+
 3 a c R 4
+
 3 b c R 5
+
 4 c cR 4
+
 4 a c L 3
+
 5 c cR 5
+
 5 b c L 3
+
 3 _ _ R 6
+
 6 c cR 6
+
 6 _ _ S 7
+
 acc
+
 7
+
 max
+
 800
+
 run
+
 aababbabaa
+
 aababbabaaaababbabaa
+
 aababbabaaaababbabaab
+
 aababbabaaaababbabaabbaababbabaaaababbabaa
+
 aababbabbaaababbabaabbaababbabaaaababbabaa
 
 Output:
+
 1
+
 1
+
 0
+
 U
+
 0
