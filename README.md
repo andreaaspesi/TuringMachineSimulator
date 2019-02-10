@@ -12,6 +12,7 @@ The input file is the description of the machine and the list of
 All the computations starts from the state 0.
 ### Example
 tr
+
 0 a aR 0
 
 0 b bR 0
