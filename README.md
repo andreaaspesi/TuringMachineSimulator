@@ -2,7 +2,7 @@
 A non deterministic Turing Machine simulator written in C with focus on optimization.
 The biggest improvement in performance is given from the reuse of the list nodes instead of creating new ones.
 ## Input file
-The input file is the description of the machine and the list of 
+The input file is the description of the machine and the list of strings to be computed.
 - The first part starts with "tr", it contains the transactions, one for each line. 
  EX: 0 a b R 1 means it starts from 0 reading 'a' and goes to 1 writing 'b', 'R' means the tape goes to right (S=stop, L=left).
 - Next, after the keyword "acc", comes the list of final states (one for each line).
